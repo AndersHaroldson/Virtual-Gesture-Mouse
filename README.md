@@ -15,7 +15,7 @@ An A.I.-powered, hand gesture controlled virtual mouse
 
 
 ## Introduction
-Text
+This project was inspired by the original Iron Man movie. In his workshop, Tony Stark interacts with his computers using his hands and a pen as a mouse. 
 
 ## Screenshots
 
