@@ -34,6 +34,12 @@ This project was inspired by the original Iron Man movie. In his workshop, Tony 
 
 demo video
 
+## How to use
+1. Start with your open hand facing the camera.
+2. The mouse cursor will follow the tip of your thumb. 
+3. Left mouse click: Bring your index finger down towards the tip of your thumb (same x-axis)
+4. Right mouse click: Bring your middle finger down towards the tip of your thumb (same x-axis)
+5. Hold left mouse click: Bring your ring finger down towards the tip of your thumb (same y-axis)
 
 ## Installation
 
