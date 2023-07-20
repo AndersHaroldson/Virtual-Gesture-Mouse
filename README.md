@@ -25,9 +25,9 @@ Text
 
 ## Features
 
-- Left and right mouse click
-- Hold mouse click
-- Scrolling capabilities
+- Left mouse click
+- Right mouse click
+- Hold left mouse click
 
 
 ## Demo
