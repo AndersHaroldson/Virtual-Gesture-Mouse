@@ -23,11 +23,11 @@ This project was inspired by the original Iron Man movie, hence the Iron Man ban
 - Right mouse click
 - Hold left mouse click
 
-
+<!--
 ## Demo
 
 demo video
-
+-->
 ## How to use
 1. Start with your open hand facing the camera.
 2. The mouse cursor will follow the tip of your thumb. 
@@ -36,8 +36,22 @@ demo video
 5. Hold left mouse click: Bring your ring finger down towards the tip of your thumb (same y-axis)
 
 ## Installation
-
-Steps
+1. Clone this repository
+```bash
+git clone https://github.com/AndersHaroldson/Virtual-Gesture-Mouse.git
+```
+2. Change directory into the cloned repo
+```bash
+cd Virtual-Gesture-Mouse
+```
+3. Install the dependencies
+```bash
+pip install -r requirements.txt
+```
+4. Run the script!
+```bash
+python3 main.py
+```
 
 ## Acknowledgements
   - Docs used: [Mediapipe documentation](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker#models)
