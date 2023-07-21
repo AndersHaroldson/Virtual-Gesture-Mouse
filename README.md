@@ -44,7 +44,7 @@ git clone https://github.com/AndersHaroldson/Virtual-Gesture-Mouse.git
 ```bash
 cd Virtual-Gesture-Mouse
 ```
-3. Install the dependencies
+3. Install the dependencies (please note that autopy, the library that moves the cursor, only works up to version 3.8 of Python)
 ```bash
 pip install -r requirements.txt
 ```
