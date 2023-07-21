@@ -17,12 +17,6 @@ An A.I.-powered, hand gesture controlled virtual mouse
 ## Introduction
 This project was inspired by the original Iron Man movie, hence the Iron Man banner. In his workshop, Tony Stark interacts with his computers using his hands and a pen as a mouse. 
 
-## Screenshots
-
-![App Screenshot](resources/.png)
-![App Screenshot](resources/.png)
-
-
 ## Features
 
 - Left mouse click
