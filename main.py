@@ -47,7 +47,7 @@ with mp_hands.Hands(model_complexity=0, min_detection_confidence=0.75, min_track
         xRingTip = hand_landmarks.landmark[16].x * winWidth
         yRingTip = hand_landmarks.landmark[16].y * winHeight
         
-        print(int(xThumbTip), int(yThumbTip)) 
+        #print(int(xThumbTip), int(yThumbTip)) 
         
         # Circles the tip of the thumb, which acts as the mouse cursor
         cv2.circle(image, (int(hand_landmarks.landmark[4].x * image_width), int(hand_landmarks.landmark[4].y * image_height)), 10, (0, 0, 255), 2)
@@ -65,18 +65,18 @@ with mp_hands.Hands(model_complexity=0, min_detection_confidence=0.75, min_track
         # How-to: bring your index finger down to the same x value as the tip of your thumb (just flick your index finger down)
         if abs(yIndexTip - yThumbTip) < 10:
             autopy.mouse.click(autopy.mouse.Button.LEFT)
-            print("Left click")
+            #print("Left click")
         # Click right mouse button
         # How-to: bring your middle finger down to the same x value as the tip of your thumb (just flick your middle finger down)
         elif abs(yMiddleTip - yThumbTip) < 10:
             autopy.mouse.click(autopy.mouse.Button.RIGHT)
-            print("Right click")
+            #print("Right click")
         # Hold down the left mouse button 
         # How-to: bring your ring finger over your thumb (y-axis) - the y-axis is used because the x-axis can result in an unintended trigger 
         elif abs(xRingTip - xThumbTip) < 10:
             pyautogui.mouseDown(button="left")
             autopy.mouse.move(winWidth-abs(round(xThumbTip)), abs(int(yThumbTip)))  
-            print("hold")
+            #print("hold")
 
     # Flip the image horizontally for a selfie-view display.
     cv2.imshow('Hand Tracking Test', cv2.flip(image, 1))
