@@ -9,7 +9,6 @@ An A.I.-powered, hand gesture controlled virtual mouse
 
   <a href="">![GitHub last commit](https://img.shields.io/github/last-commit/AndersHaroldson/Virtual-Gesture-Mouse?style=flat-square)</a>
   <a href="">![GitHub Repo stars](https://img.shields.io/github/stars/AndersHaroldson/Virtual-Gesture-Mouse?style=flat-square)</a>
-  <a href="">![GitHub contributors](https://img.shields.io/github/contributors/AndersHaroldson/Virtual-Gesture-Mouse?style=flat-square)</a>
 
 </div>
 
