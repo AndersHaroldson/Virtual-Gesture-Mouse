@@ -17,7 +17,7 @@ with mp_hands.Hands(model_complexity=0, min_detection_confidence=0.75, min_track
     if not success:
       print("Cannot open device camera")
       exit()
-    # Make image non-writable for better performance
+
     image.flags.writeable = False
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     results = hands.process(image)
