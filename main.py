@@ -6,9 +6,9 @@ import pyautogui
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
-# Get screen size
+
 winWidth, winHeight = autopy.screen.size()
-# Capture video using OpenCV
+
 cap = cv2.VideoCapture(0)
 
 with mp_hands.Hands(model_complexity=0, min_detection_confidence=0.75, min_tracking_confidence=0.75) as hands:
